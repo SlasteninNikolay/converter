@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+input,
+select {
+    height: 20px;
+    outline: none;
+}
+label {
+    height: 20px;
+    line-height: 2;
+}
+select {
+    width: 100%;
+    margin-left: -3px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.converter {
+    background-color: #a2d4df;
+    border: 1px solid #528c83;
+    border-radius: 8px;
+}
+.form {
+    min-width: 850px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    padding: 20px;
+}
+.form input {
+    margin-right: 0;
+}
+.left-side,
+.right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.select-input-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+}
+.replace-btn {
+    width: 30px;
+    height: 30px;
+    background: url("img/btn-replace.svg") no-repeat center;
+    border: none;
+    cursor: pointer;
+}
+.convert-btn {
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #24aadd;
+    color: #fff;
+    cursor: pointer;
+}

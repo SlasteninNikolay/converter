@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <title>Converter</title>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="wrapper">
+                    <div class="converter">
+                        <form id="form" name="form" class="form">
+                            <div class="left-side">
+                                <div class="select-input-field" id="desired-currency-field">
+                                <input id="desired-currency" type="text" /></input>
+                                <select name="select-currency" id="select-currency">
+                                    <option value="usd">Доллар США</option>
+                                    <option value="euro">Евро</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button class="replace-btn" type="button"></button>
+                            <div class="right-side">
+                                <div class="select-input-field" id="bace-currency-field">
+                                <input id="base-currency" type="text" readonly /></input>
+                                <label for="base-currency">Российский рубль (RUB)</label>
+                                
+                            </div>
+                            
+                            </div>
+                            <button class="convert-btn" type="submit">Конвертировать</button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
